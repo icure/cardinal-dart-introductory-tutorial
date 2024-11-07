@@ -12,7 +12,7 @@ import 'package:cardinal_sdk/model/embed/sub_contact.dart';
 import 'package:cardinal_sdk/model/embed/time_series.dart';
 import 'package:cardinal_sdk/model/health_element.dart';
 import 'package:cardinal_sdk/model/patient.dart';
-import 'package:flutter_playground/cardinal/utils.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/utils.dart';
 
 Future<DecryptedPatient> getOrCreatePatient(CardinalSdk sdk, String patientId) async {
   final patient = patientId.trim().isEmpty

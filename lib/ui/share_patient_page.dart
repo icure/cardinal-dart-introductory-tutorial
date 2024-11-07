@@ -1,10 +1,10 @@
 import 'package:cardinal_sdk/model/health_element.dart';
 import 'package:cardinal_sdk/model/patient.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/cardinal/create_sdk.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/create_sdk.dart';
 import 'dart:async';
 
-import 'package:flutter_playground/cardinal/share_patient.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/share_patient.dart';
 
 class SharePatientPage extends StatefulWidget {
   const SharePatientPage({super.key});

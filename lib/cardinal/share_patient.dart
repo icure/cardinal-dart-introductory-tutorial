@@ -10,9 +10,9 @@ import 'package:cardinal_sdk/model/patient.dart';
 import 'package:cardinal_sdk/model/requests/requested_permission.dart';
 import 'package:cardinal_sdk/model/user.dart';
 import 'package:cardinal_sdk/options/storage_options.dart';
-import 'package:flutter_playground/cardinal/create_sdk.dart';
-import 'package:flutter_playground/cardinal/pretty_print.dart';
-import 'package:flutter_playground/cardinal/utils.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/create_sdk.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/pretty_print.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/utils.dart';
 import 'dart:developer' as developer;
 
 Future<User> createPatientSdk(CardinalSdk sdk) async {

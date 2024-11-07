@@ -1,8 +1,8 @@
 import 'package:cardinal_sdk/model/document.dart';
 import 'package:cardinal_sdk/model/healthcare_party.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/cardinal/create_sdk.dart';
-import 'package:flutter_playground/cardinal/share_hcp.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/create_sdk.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/share_hcp.dart';
 import 'dart:async';
 import '../cardinal/pretty_print.dart';
 

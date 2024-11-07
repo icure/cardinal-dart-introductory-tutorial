@@ -11,7 +11,7 @@ import 'package:cardinal_sdk/model/embed/measure.dart';
 import 'package:cardinal_sdk/model/embed/service.dart';
 import 'package:cardinal_sdk/model/patient.dart';
 import 'package:cardinal_sdk/utils/pagination/paginated_list_iterator.dart';
-import 'package:flutter_playground/cardinal/utils.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/utils.dart';
 
 Future<PaginatedListIterator<Code>> createCodeIterator(CardinalSdk sdk) async {
   final existing = await sdk.code.getCodes(

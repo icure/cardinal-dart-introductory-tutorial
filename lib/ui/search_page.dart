@@ -3,9 +3,9 @@ import 'package:cardinal_sdk/model/embed/service.dart';
 import 'package:cardinal_sdk/model/patient.dart';
 import 'package:cardinal_sdk/utils/pagination/paginated_list_iterator.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/cardinal/create_sdk.dart';
-import 'package:flutter_playground/cardinal/pretty_print.dart';
-import 'package:flutter_playground/cardinal/search.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/create_sdk.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/pretty_print.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/search.dart';
 import 'dart:async';
 
 class SearchPage extends StatefulWidget {

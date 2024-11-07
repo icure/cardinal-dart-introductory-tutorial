@@ -1,6 +1,6 @@
 import 'package:cardinal_sdk/cardinal_sdk.dart';
 import 'package:cardinal_sdk/model/patient.dart';
-import 'package:flutter_playground/cardinal/utils.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/utils.dart';
 
 Future<DecryptedPatient> createPatient(CardinalSdk sdk, String firstName, String lastName) async {
   final patient = DecryptedPatient(

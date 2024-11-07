@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/ui/codification_page.dart';
-import 'package:flutter_playground/ui/create_examination_page.dart';
-import 'package:flutter_playground/ui/search_page.dart';
-import 'package:flutter_playground/ui/share_hcp_page.dart';
-import 'package:flutter_playground/ui/share_patient_page.dart';
+import 'package:cardinal_introductory_tutorial/ui/codification_page.dart';
+import 'package:cardinal_introductory_tutorial/ui/create_examination_page.dart';
+import 'package:cardinal_introductory_tutorial/ui/search_page.dart';
+import 'package:cardinal_introductory_tutorial/ui/share_hcp_page.dart';
+import 'package:cardinal_introductory_tutorial/ui/share_patient_page.dart';
 import 'create_user_page.dart';
 
 class MenuPage extends StatelessWidget {

@@ -2,8 +2,8 @@ import 'package:cardinal_sdk/cardinal_sdk.dart';
 import 'package:cardinal_sdk/model/document.dart';
 import 'package:cardinal_sdk/model/embed/access_level.dart';
 import 'package:cardinal_sdk/model/healthcare_party.dart';
-import 'package:flutter_playground/cardinal/pretty_print.dart';
-import 'package:flutter_playground/cardinal/utils.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/pretty_print.dart';
+import 'package:cardinal_introductory_tutorial/cardinal/utils.dart';
 
 Future<DecryptedDocument> createDocumentWithoutSharing(CardinalSdk sdk) async {
   final oldDocument = await sdk.document.createDocument(
